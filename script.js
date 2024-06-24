@@ -1,5 +1,5 @@
-document.addEventListener('DOMContentLoaded', function() {
-  console.log('DOM completamente carregado e analisado');
+window.onload = function() {
+  console.log('Janela completamente carregada');
   
   const addToCartButton = document.querySelector('button[name="add"]');
   if (addToCartButton) {
@@ -11,4 +11,4 @@ document.addEventListener('DOMContentLoaded', function() {
   } else {
     console.log('Botão "Adicionar ao carrinho" não encontrado');
   }
-});
+};
