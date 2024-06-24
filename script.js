@@ -1,4 +1,6 @@
 <script>
+console.log('Antes do DOM carregar...')
+  
 document.addEventListener('DOMContentLoaded', function() {
   console.log('DOM completamente carregado e analisado');
   
