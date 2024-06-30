@@ -258,7 +258,7 @@ function createPreviewKitContainer(variantAttributes, offer, kits, productPrice)
 // Função para buscar as ofertas do produto
 async function fetchOffers(productId) {
   try {
-    const response = await fetch(`https://ids-teaching-explicit-violent.trycloudflare.com/api/offers?productId=${encodeURIComponent(productId)}`);
+    const response = await fetch(`https://ripe-loans-coast-phases.trycloudflare.com/api/offers?productId=${encodeURIComponent(productId)}`);
     if (!response.ok) {
       throw new Error('Erro ao buscar ofertas');
     }
