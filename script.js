@@ -313,9 +313,13 @@ async function main() {
 
   // Esconder variantes padrão da shopify e quantidade de itens!
   const defaultVariants = document.querySelector('variant-selects')
-  defaultVariants.style.display = 'none';
+  if (defaultVariants) {
+    defaultVariants.style.display = 'none';
+  }
   const defaultQuantity = document.querySelector('.product-form__quantity');
-  defaultQuantity.style.display = 'none';
+  if (defaultQuantity) {
+    defaultQuantity.style.display = 'none';
+  }
 
   console.log('Kits:', offer?.kits);
 
